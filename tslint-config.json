@@ -1,0 +1,7 @@
+{
+  "extends": ["tslint:latest", "tslint-eslint-rules"],
+  "defaultSeverity": "error",
+  "rules": {
+    "no-display-chinese-in-text": [true]
+  }
+}
