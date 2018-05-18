@@ -5,11 +5,7 @@
   "main": "one-rules.json",
   "scripts": {
     "build": "tsc -p ./",
-    "copy": "cp -f package.json README.md tslint-react.json build/",
-    "clean": "rm -rf build/",
-    "lint": "tslint --project tsconfig.json --format codeFrame",
-    "test": "./scripts/test-rules",
-    "verify": "run-s build lint test"
+    "clean": "rm -rf build/"
   },
   "dependencies": {
     "tsutils": "^2.13.1"
