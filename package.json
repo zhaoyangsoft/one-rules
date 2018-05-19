@@ -1,6 +1,6 @@
 {
   "name": "one-rules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "the tslint rules for NEI.",
   "main": "one-rules.json",
   "scripts": {
@@ -26,7 +26,6 @@
     "tslint-language-service": "^0.9.6",
     "typescript": "~2.6.2"
   },
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhaoyangsoft/one-rules.git"

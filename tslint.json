@@ -1,0 +1,7 @@
+{
+  //   "extends": "tslint:latest",
+  "rulesDirectory": "./build/rules",
+  "rules": {
+    "file-header": [true, "Copyright \\d{4} NEL Technologies, Inc."]
+  }
+}
