@@ -579,7 +579,13 @@ tslint@^5.5.0:
     tslib "^1.8.0"
     tsutils "^2.12.1"
 
-tsutils@^2.12.1, tsutils@^2.13.1:
+tsutils@2.13.1:
+  version "2.13.1"
+  resolved "http://registry.npm.alibaba-inc.com/tsutils/download/tsutils-2.13.1.tgz#d6d1cc0f7c04cf9fb3b28a292973cffb9cfbe09a"
+  dependencies:
+    tslib "^1.8.0"
+
+tsutils@^2.12.1:
   version "2.27.0"
   resolved "http://registry.npm.alibaba-inc.com/tsutils/download/tsutils-2.27.0.tgz#9efb252b188eaa0ca3ade41dc410d6ce7eaab816"
   dependencies:

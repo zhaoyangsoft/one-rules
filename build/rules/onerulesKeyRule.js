@@ -53,7 +53,7 @@ var Rule = /** @class */ (function (_super) {
         typescriptOnly: false
     };
     /* tslint:enable:object-literal-sort-keys */
-    Rule.FAILURE_STRING = 'Missing "key" prop for element. 【tip by auto-machine】';
+    Rule.FAILURE_STRING = '迭代对象需要添加 "Key" 属性. 【Tip By One-Rules】';
     return Rule;
 }(Lint.Rules.AbstractRule));
 exports.Rule = Rule;

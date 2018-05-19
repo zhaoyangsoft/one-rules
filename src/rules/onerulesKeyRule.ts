@@ -49,7 +49,7 @@ export class Rule extends Lint.Rules.AbstractRule {
   };
   /* tslint:enable:object-literal-sort-keys */
 
-  public static FAILURE_STRING = 'Missing "key" prop for element. 【tip by auto-machine】';
+  public static FAILURE_STRING = '迭代对象需要添加 "Key" 属性. 【Tip By One-Rules】';
 
   public apply(sourceFile: ts.SourceFile): Lint.RuleFailure[] {
     return this.applyWithFunction(sourceFile, walk);

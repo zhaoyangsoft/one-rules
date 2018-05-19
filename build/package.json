@@ -7,7 +7,7 @@
     "build": "tsc -p ./",
     "clean": "rm -rf build/",
     "copy": "cp -f package.json README.md one-rules.json build/",
-    "doPub": "npm publish ./build",
+    "doPub": "npm publish",
     "pub": "run-s build copy doPub"
   },
   "dependencies": {
