@@ -1,6 +1,6 @@
 {
   "name": "one-rules",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "the tslint rules for NEI.",
   "main": "one-rules.json",
   "scripts": {
