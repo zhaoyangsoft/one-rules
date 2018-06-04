@@ -1,6 +1,6 @@
 {
-  "name": "one-rules",
-  "version": "0.0.6",
+  "name": "@ali/tslint",
+  "version": "0.0.8",
   "description": "the tslint rules for NEI.",
   "main": "one-rules.json",
   "scripts": {
@@ -8,9 +8,10 @@
     "clean": "rm -rf build/",
     "copy": "cp -f package.json README.md one-rules.json build/",
     "doPub": "npm publish ./build",
-    "pub": "run-s build copy doPub"
+    "pub": "run-s clean build copy doPub"
   },
   "dependencies": {
+    "lodash": "^4.17.10",
     "tsutils": "2.13.1"
   },
   "peerDependencies": {
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@types/colors": "^1.1.3",
     "@types/glob": "^5.0.30",
+    "@types/lodash": "^4.14.109",
     "@types/node": "^7.0.13",
     "colors": "^1.1.2",
     "glob": "^7.1.2",
@@ -39,5 +41,8 @@
   "bugs": {
     "url": "https://github.com/zhaoyangsoft/one-rules/issues"
   },
-  "homepage": "https://github.com/zhaoyangsoft/one-rules#readme"
+  "homepage": "https://github.com/zhaoyangsoft/one-rules#readme",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
 }
