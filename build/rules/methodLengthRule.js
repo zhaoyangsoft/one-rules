@@ -70,7 +70,7 @@ var MethodLengthWalker = /** @class */ (function (_super) {
         var limitNum = _.get(options, "[0].limit", DEF_LIMIT_NUM);
         // 可以通过参数配置
         if (body.split("\n").length > limitNum) {
-            this.addFailure(this.createFailure(node.getStart(), node.getWidth(), "\u65B9\u6CD5\u884C\u6570\u4E0D\u80FD\u8D85\u8FC7 " + limitNum + " \u884C\uFF0C\u8BF7\u91CD\u6784 "));
+            this.addFailure(this.createFailure(node.getStart(), node.getWidth(), "\u65B9\u6CD5\u884C\u6570\u4E0D\u80FD\u8D85\u8FC7 " + limitNum + " \u884C\uFF0C\u8BF7\u91CD\u6784. \u3010Tip By One-Rules\u3011"));
         }
     };
     return MethodLengthWalker;

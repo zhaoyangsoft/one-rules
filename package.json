@@ -1,6 +1,6 @@
 {
-  "name": "@ali/tslint",
-  "version": "0.0.8",
+  "name": "one-rules",
+  "version": "0.0.9",
   "description": "the tslint rules for NEI.",
   "main": "one-rules.json",
   "scripts": {
@@ -41,8 +41,5 @@
   "bugs": {
     "url": "https://github.com/zhaoyangsoft/one-rules/issues"
   },
-  "homepage": "https://github.com/zhaoyangsoft/one-rules#readme",
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
-  }
+  "homepage": "https://github.com/zhaoyangsoft/one-rules#readme"
 }

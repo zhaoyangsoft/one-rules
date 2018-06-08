@@ -67,7 +67,7 @@ class MethodLengthWalker extends Lint.RuleWalker {
         this.createFailure(
           node.getStart(),
           node.getWidth(),
-          `方法行数不能超过 ${limitNum} 行，请重构 `
+          `方法行数不能超过 ${limitNum} 行，请重构. 【Tip By One-Rules】`
         )
       );
     }
